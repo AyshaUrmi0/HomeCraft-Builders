@@ -1,0 +1,9 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.set-image{
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

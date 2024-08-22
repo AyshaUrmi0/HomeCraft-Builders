@@ -19,15 +19,12 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      body {
-        font-family: "Manrope";
-      }
-    </style>
+    <link rel="stylesheet" href="Style/style.css">
+   
   </head>
   <body>
     <!-- Your header content here -->
-    <header class="container mx-auto">
+    <header class="w-11/12 mx-auto">
       <!-- Your nav content here -->
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -138,7 +135,7 @@
     </header>
     <main>
       <!-- Your main content here -->
-      <section class="container px-2 mx-auto">
+      <section class="w-11/12 px-2 mx-auto">
         <img class="w-1/2 mx-auto" src="./assets/banner.png" alt="" />
         <h1 class="w-8/12 mx-auto text-4xl font-bold text-center lg:text-5xl">
           A barn house of this design has a striking appearance
@@ -239,7 +236,7 @@
         </button>
 
       </div>
-      <div class="container px-2 mx-auto text-center ">
+      <div class="w-11/12 px-2 mx-auto text-center ">
         <h1 class="w-8/12 mx-auto text-3xl font-bold lg:text-4xl">
           Our Works Process
         </h1>
@@ -249,7 +246,7 @@
       </div>
 
       <section class="py-12 bg-gray-100">
-        <div class="container mx-auto">
+        <div class="w-11/12 mx-auto">
             <div class="grid grid-cols-1 gap-5 p-3 lg:grid-cols-4">
                 <!-- Concept Card -->
                 <div class="p-5 bg-pink-200 rounded-lg shadow-lg card">
@@ -303,10 +300,60 @@
 
     
     </section>
+
+    <section class="mt-5 set-image">
+      <div class="flex justify-center">
+        <button class="flex justify-center mt-10 mb-5 text-center bg-[#ABEF5F33] rounded-full btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          
+          Let’s Connect
+        </button>
+
+      </div>
+      <div class="w-11/12 px-2 mx-auto text-center ">
+        <h1 class="mx-auto text-4xl font-bold lg:text-5xl">
+          Let’s Discuss Next Project
+        </h1>
+        <p class="mx-auto text-center opacity-50 ">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+      </div>
+
+      <!-- Form section starts here -->
+
+      <div class="grid w-10/12 grid-cols-1 gap-5 mx-auto lg:w-8/12 lg:grid-cols-2">
+        <input type="text" placeholder="First Name*" class="w-full rounded-full input input-bordered">
+        <input type="text" placeholder="Last Name*" class="w-full rounded-full input input-bordered">
+        <input type="text" placeholder=Email Number* class="w-full rounded-full input input-bordered">
+        <input type="text" placeholder=Phone Number* class="w-full rounded-full input input-bordered">
+        <textarea name="" id="description"  placeholder="Write your message here" class="w-full h-32 row-span-6 p-3 lg:col-span-2 input input-bordered" id=""></textarea>
+        <a class="rounded-full lg:col-span-2 btn bg-lime-300 lg:flex"
+        >Send mail
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="text-white bg-black rounded-full size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+          />
+        </svg>
+      </a>
+
+
+      </div>
+    </section>
     
     </main>
-    <footer>
-      <!-- Your footer content here -->
-    </footer>
+
+    
+   
   </body>
 </html>
