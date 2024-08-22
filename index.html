@@ -20,12 +20,12 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      .font-manrope {
+      body {
         font-family: "Manrope";
       }
     </style>
   </head>
-  <body class="font-manrope">
+  <body>
     <!-- Your header content here -->
     <header class="container mx-auto">
       <!-- Your nav content here -->
@@ -138,7 +138,7 @@
     </header>
     <main>
       <!-- Your main content here -->
-      <section class="container px-2 mx-auto font-manrope">
+      <section class="container px-2 mx-auto">
         <img class="w-1/2 mx-auto" src="./assets/banner.png" alt="" />
         <h1 class="w-8/12 mx-auto text-4xl font-bold text-center lg:text-5xl">
           A barn house of this design has a striking appearance
@@ -171,7 +171,10 @@
 
 
       <!-- Thoughtful design starts here -->
-      <section class="bg-[#F4F4F4] mt-5 p-16">
+       <section class=" bg-[#F4F4F4]">
+
+       
+      <section class="p-16 mt-5 ">
         <img class="hidden mb-5 lg:flex" src="./assets/Vector.png" alt="">
         <!-- Button here -->
         <div class="flex justify-center lg:justify-start">
@@ -183,7 +186,6 @@
            About Us
           </button>
         </div>
-
 
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
          
@@ -221,8 +223,86 @@
                 <img class="w-full" src="./assets/Rectangle.png" alt="">
             </div>
         </div>
+
+    </section>
+
+    <!-- How we work -->
+     <section>
+
+      <div class="flex justify-center">
+        <button class="flex justify-center mb-5 text-center bg-white rounded-full btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          
+          How we works
+        </button>
+
+      </div>
+      <div class="container px-2 mx-auto text-center ">
+        <h1 class="w-8/12 mx-auto text-3xl font-bold lg:text-4xl">
+          Our Works Process
+        </h1>
+        <p class="w-9/12 mx-auto text-lg opacity-50">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+      </div>
+
+      <section class="py-12 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 gap-5 p-3 lg:grid-cols-4">
+                <!-- Concept Card -->
+                <div class="p-5 bg-pink-200 rounded-lg shadow-lg card">
+                    <div class="text-left card-body">
+                        <div class="mb-3">
+                           <img src="./assets/concept.png" alt="">
+                        </div>
+                        <h2 class="text-xl font-semibold card-title">Concept</h2>
+                        <p class="mt-2 text-gray-700">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+    
+                <!-- Design Process Card -->
+                <div class="p-5 bg-yellow-200 rounded-lg shadow-lg card">
+                    <div class="text-left card-body">
+                        <div class="mb-3">
+                            <img src="./assets/flow-chart.png" alt="">
+                        </div>
+                        <h2 class="text-xl font-semibold card-title">Design Process</h2>
+                        <p class="mt-2 text-gray-700">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+    
+                <!-- Supervision Card -->
+                <div class="p-5 bg-green-200 rounded-lg shadow-lg card">
+                    <div class="text-left card-body">
+                        <div class="mb-3">
+                           <img src="./assets/vision.png" alt="">
+                        </div>
+                        <h2 class="text-xl font-semibold card-title">Supervision</h2>
+                        <p class="mt-2 text-gray-700">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+    
+                <!-- Budget Planning Card -->
+                <div class="p-5 bg-blue-200 rounded-lg shadow-lg card">
+                    <div class="text-left card-body">
+                        <div class="mb-3">
+                            <img src="./assets/budget-planning.png" alt="">
+                        </div>
+                        <h2 class="text-xl font-semibold card-title">Budget Planning</h2>
+                        <p class="mt-2 text-gray-700">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     
+     </section>
+
+
+    
+    </section>
     
     </main>
     <footer>
