@@ -19,10 +19,15 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Raw css  -->
     <link rel="stylesheet" href="Style/style.css">
-   
+   <style>
+    .font-manrope{
+      font-family: 'Manrope', sans-serif;
+    }
+   </style>
   </head>
-  <body>
+  <body class="font-manrope">
     <!-- Your header content here -->
     <header class="w-11/12 mx-auto">
       <!-- Your nav content here -->
@@ -350,6 +355,59 @@
 
       </div>
     </section>
+    <section class="py-16 bg-gray-100">
+      <div class="w-11/12 mx-auto text-center">
+        <h2 class="text-4xl font-bold text-center lg:text-5xl">What Our Clients Say</h2>
+        <p class="w-9/12 mx-auto mt-3 text-lg opacity-50">
+          Hear from our satisfied clients about their experiences with us.
+        </p>
+    
+        <div class="grid grid-cols-1 gap-8 mt-10 lg:grid-cols-3">
+          <!-- Testimonial Card 1 -->
+          <div class="p-8 bg-white rounded-lg shadow-lg">
+            <div class="flex items-center mb-4">
+              <img src="./assets/client1.png" alt="Client 1" class="w-16 h-16 mr-4 rounded-full">
+              <div class="text-left">
+                <h5 class="text-lg font-semibold">John Doe</h5>
+                <p class="text-sm opacity-50">CEO, Acme Corp</p>
+              </div>
+            </div>
+            <p class="opacity-75">
+              "The team at HomeCraft Builders truly understands our needs and delivered a design that exceeded our expectations. Their attention to detail and customer service is unparalleled."
+            </p>
+          </div>
+    
+          <!-- Testimonial Card 2 -->
+          <div class="p-8 bg-white rounded-lg shadow-lg">
+            <div class="flex items-center mb-4">
+              <img src="./assets/client2.png" alt="Client 2" class="w-16 h-16 mr-4 rounded-full">
+              <div class="text-left">
+                <h5 class="text-lg font-semibold">Jane Smith</h5>
+                <p class="text-sm opacity-50">Homeowner</p>
+              </div>
+            </div>
+            <p class="opacity-75">
+              "Working with HomeCraft Builders was a fantastic experience. They listened to our ideas and transformed them into a beautiful, functional space that we absolutely love."
+            </p>
+          </div>
+    
+          <!-- Testimonial Card 3 -->
+          <div class="p-8 bg-white rounded-lg shadow-lg">
+            <div class="flex items-center mb-4">
+              <img src="./assets/client3.png" alt="Client 3" class="w-16 h-16 mr-4 rounded-full">
+              <div class="text-left">
+                <h5 class="text-lg font-semibold">Alice Brown</h5>
+                <p class="text-sm opacity-50">Interior Designer</p>
+              </div>
+            </div>
+            <p class="opacity-75">
+              "As an interior designer, I appreciate the level of professionalism and creativity that HomeCraft Builders brings to the table. They are a reliable partner for any project."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     
     </main>
 
