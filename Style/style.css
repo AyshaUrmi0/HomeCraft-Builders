@@ -1,7 +1,8 @@
 
 
-.set-image{
+.set-image {
     background-image: url(../assets/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
 }
